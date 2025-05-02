@@ -1,4 +1,5 @@
 # Write your MySQL query statement below
+
 WITH latest_prices AS (
   SELECT product_id, new_price
   FROM (
